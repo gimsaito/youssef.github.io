@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+
+* {
+    padding : 10px;	
+    margin : 0px;
+    font-family : 'Poppins' , sans-serif ;
+    box-sizing: border-box;
+    }
+
+body{
+     background: #001e4d;
+    }
+.video {
+    text-align: center;
+    bottom : 20%;
+}
+
+
+.buttons button.Return{
+    color: #007bff;
+    background: #fff;
+}
+
+.buttons button.Return:hover{
+    color: #fff;
+    background: #007bff;
+}
+
+.buttons button.BeginQuiz {
+    color: #007bff;
+    background: #fff;
+}
+
+.buttons button.BeginQuiz:hover{
+    color: #fff;
+    background: #007bff;
+}
+
+.buttons button{
+    margin: 0 5px;
+    height: 40px;
+    width: 100px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #007bff;
+    transition: all 0.3s ease;
+}
